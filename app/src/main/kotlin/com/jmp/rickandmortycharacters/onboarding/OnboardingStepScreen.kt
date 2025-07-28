@@ -59,7 +59,7 @@ fun OnboardingStepScreen(
             text = description,
             textAlign = TextAlign.Center,
             modifier = Modifier.fillMaxWidth(),
-            color = Color.White,
+            color = Color.DarkGray,
             fontFamily = FontFamily.SansSerif
         )
     }
