@@ -1,0 +1,47 @@
+# Operating System
+.DS_Store
+Thumbs.db
+
+# IDE - IntelliJ / Android Studio
+.idea/
+*.iml
+**/.idea/modules.xml
+
+# Gradle
+.gradle/
+!gradle-wrapper.jar
+**/gradle-wrapper.properties
+
+# Build outputs
+**/build/
+
+# Android Studio Artifacts
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Compiled outputs
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# ProGuard and R8
+proguard/
+
+# Local configuration
+local.properties
+
+# Logs
+*.log
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services Configuration
+google-services.json
+
+# Android Profiling
+*.hprof

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Rick&amp;Morty Chars!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="characters_fragment_label">Characters fragment</string>
+    <string name="character_detail_fragment_label">Character detail fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="information">Information</string>
+    <string name="reload">Reload</string>
+    <!-- Error messages -->
+    <string name="unkown_error">An error occurred</string>
+</resources>
