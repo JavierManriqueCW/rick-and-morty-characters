@@ -1533,9 +1533,9 @@ Build rick-and-morty-characters from the source and install dependencies:
 
 **Clone the repository:**
 
-    ```sh
-    ❯ git clone https://github.com/JavierManriqueCW/rick-and-morty-characters
-    ```
+```
+git clone https://github.com/JavierManriqueCW/rick-and-morty-characters
+```
 
 [![][back-to-top]](#top)
 
