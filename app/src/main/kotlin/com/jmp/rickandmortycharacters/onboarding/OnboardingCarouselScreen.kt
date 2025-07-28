@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -30,6 +31,8 @@ import com.jmp.rickandmortycharacters.R
 import com.jmp.rickandmortycharacters.common.compose.DotSize
 import com.jmp.rickandmortycharacters.common.compose.GeneralPadding
 import com.jmp.rickandmortycharacters.common.compose.MediumGeneralPadding
+import com.jmp.rickandmortycharacters.common.compose.OnboardingButtonColor
+import com.jmp.rickandmortycharacters.common.compose.TopBarBackground
 
 private const val FIRST_ONBOARDING_SCREEN_INDEX = 0
 private const val SECOND_ONBOARDING_SCREEN_INDEX = 1
@@ -117,7 +120,10 @@ fun OnboardingCarousel(
                         onOnboardingFinished()
                     }
                 },
-                shape = RoundedCornerShape(24.dp)
+                shape = RoundedCornerShape(24.dp),
+                colors = ButtonDefaults.buttonColors().copy(
+                    containerColor = OnboardingButtonColor
+                )
             ) {
                 Text(text = "Next")
             }
